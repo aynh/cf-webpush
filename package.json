@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-webpush-request-builder",
+  "version": "1.0.0",
+  "description": "Easily build a webpush request from within Cloudflare Workers.",
+  "author": "Aynh <aynlazur@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.16.0",
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.3"
+  }
+}
