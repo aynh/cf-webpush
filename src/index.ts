@@ -263,3 +263,4 @@ export const buildRequest = async (
 }
 
 export * from './types'
+export { getPublicKeyFromJwk } from './utils'

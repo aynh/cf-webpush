@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-webpush-request-builder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Easily build a webpush request from within Cloudflare Workers.",
   "author": "Aynh <aynlazur@gmail.com>",
   "license": "MIT",
