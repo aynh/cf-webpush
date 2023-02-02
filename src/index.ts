@@ -46,7 +46,7 @@ const deriveSharedSecret = async (
   localPrivateKey: CryptoKey
 ) => {
   const sharedSecretBytes = await crypto.subtle.deriveBits(
-    { name: 'ECDH', public: clientPublicKey },
+    { name: 'ECDH', $public: clientPublicKey },
     localPrivateKey,
     256
   )
