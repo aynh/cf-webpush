@@ -1,8 +1,8 @@
 {
-  "name": "cloudflare-webpush-request-builder",
+  "name": "cf-webpush",
   "version": "1.1.0",
-  "description": "Easily build a webpush request from within Cloudflare Workers.",
-  "author": "Aynh <aynlazur@gmail.com>",
+  "description": "Build webpush request in Cloudflare Workers.",
+  "author": "aynh <aynlazur@gmail.com>",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -31,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aynh/cloudflare-webpush-request-builder.git"
+    "url": "git+https://github.com/aynh/cf-webpush.git"
   },
   "bugs": {
-    "url": "https://github.com/Aynh/cloudflare-webpush-request-builder/issues"
+    "url": "https://github.com/aynh/cf-webpush/issues"
   },
-  "homepage": "https://github.com/Aynh/cloudflare-webpush-request-builder#readme"
+  "homepage": "https://github.com/aynh/cf-webpush#readme"
 }
