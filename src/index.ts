@@ -192,7 +192,10 @@ const buildHeaders = async (
 	return headers;
 };
 
-export const buildRequest = async (options: PushOptions, target: PushSubscription) => {
+export const buildRequest = async (
+	options: PushOptions,
+	target: PushSubscription
+): Promise<globalThis.Request> => {
 	const salt = crypto.getRandomValues(new Uint8Array(16));
 	const localKeys = (await crypto.subtle.generateKey({ name: 'ECDH', namedCurve: 'P-256' }, true, [
 		'deriveBits'
