@@ -1,15 +1,15 @@
 {
-  "compilerOptions": {
-    "noEmit": true,
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "lib": ["ESNext"],
-    "types": ["@cloudflare/workers-types"],
-    "strict": true,
-    "strictNullChecks": true
-  },
-  "include": ["src"]
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"lib": ["ESNext"],
+		"types": ["@cloudflare/workers-types"],
+		"strict": true,
+		"strictNullChecks": true
+	},
+	"include": ["src"]
 }
