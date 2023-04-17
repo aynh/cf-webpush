@@ -1,9 +1,5 @@
-# cloudflare-webpush-request-builder
+# [cf-webpush](https://cf-webpush.pages.dev)
 
-Easily build a [webpush](https://web.dev/push-notifications-web-push-protocol/) request from within Cloudflare Workers.
+Easily build a [webpush](https://web.dev/push-notifications-web-push-protocol/) request in Cloudflare Workers (or Cloudflare Pages).
 
-Example:
-
-- [terworking/birthday-notify](https://github.com/terworking/birthday-notify/tree/main/backend).
-
-## Contents to-be-defined
+> See [`./example`](./example) directory for usage example.
