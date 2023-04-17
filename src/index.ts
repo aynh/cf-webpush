@@ -37,7 +37,8 @@ const importClientKeys = async (keys: PushSubscriptionKey) => {
 
 const deriveSharedSecret = async (clientPublicKey: CryptoKey, localPrivateKey: CryptoKey) => {
 	const sharedSecretBytes = await crypto.subtle.deriveBits(
-		{ name: 'ECDH', $public: clientPublicKey },
+		// @ts-expect-error typescript says it should be $public, but it doesn't work
+		{ name: 'ECDH', public: clientPublicKey },
 		localPrivateKey,
 		256
 	);
