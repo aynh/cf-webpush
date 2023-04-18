@@ -17,15 +17,15 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "2.0.0",
 		"@sveltejs/adapter-cloudflare": "2.2.0",
-		"@sveltejs/kit": "1.15.5",
+		"@sveltejs/kit": "1.15.7",
 		"prettier": "2.8.7",
 		"prettier-plugin-svelte": "2.10.0",
 		"svelte": "3.58.0",
 		"svelte-check": "3.2.0",
 		"tslib": "2.5.0",
 		"typescript": "5.0.4",
-		"vite": "4.2.1",
-		"wrangler": "2.15.1"
+		"vite": "4.2.2",
+		"wrangler": "2.16.0"
 	},
 	"type": "module"
 }
