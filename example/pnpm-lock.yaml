@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   cf-webpush:
     specifier: ../
@@ -13,11 +17,11 @@ devDependencies:
     specifier: 1.15.7
     version: 1.15.7(svelte@3.58.0)(vite@4.3.0)
   prettier:
-    specifier: 2.8.7
-    version: 2.8.7
+    specifier: 3.3.3
+    version: 3.3.3
   prettier-plugin-svelte:
     specifier: 2.10.0
-    version: 2.10.0(prettier@2.8.7)(svelte@3.58.0)
+    version: 2.10.0(prettier@3.3.3)(svelte@3.58.0)
   svelte:
     specifier: 3.58.0
     version: 3.58.0
@@ -1589,19 +1593,19 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte@2.10.0(prettier@2.8.7)(svelte@3.58.0):
+  /prettier-plugin-svelte@2.10.0(prettier@3.3.3)(svelte@3.58.0):
     resolution: {integrity: sha512-GXMY6t86thctyCvQq+jqElO+MKdB09BkL3hexyGP3Oi8XLKRFaJP1ud/xlWCZ9ZIa2BxHka32zhHfcuU+XsRQg==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.8.7
+      prettier: 3.3.3
       svelte: 3.58.0
     dev: true
 
-  /prettier@2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 

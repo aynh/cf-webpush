@@ -1,12 +1,16 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@cloudflare/workers-types':
     specifier: 4.20230404.0
     version: 4.20230404.0
   prettier:
-    specifier: 2.8.7
-    version: 2.8.7
+    specifier: 3.3.3
+    version: 3.3.3
   tsup:
     specifier: 6.7.0
     version: 6.7.0(typescript@5.0.4)
@@ -684,9 +688,9 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /prettier@2.8.7:
-    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.3.3:
+    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
