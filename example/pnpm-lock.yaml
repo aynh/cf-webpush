@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   cf-webpush:
     specifier: ../
@@ -16,8 +20,8 @@ devDependencies:
     specifier: 2.8.7
     version: 2.8.7
   prettier-plugin-svelte:
-    specifier: 2.10.0
-    version: 2.10.0(prettier@2.8.7)(svelte@3.58.0)
+    specifier: 3.2.7
+    version: 3.2.7(prettier@2.8.7)(svelte@3.58.0)
   svelte:
     specifier: 3.58.0
     version: 3.58.0
@@ -1589,11 +1593,11 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte@2.10.0(prettier@2.8.7)(svelte@3.58.0):
-    resolution: {integrity: sha512-GXMY6t86thctyCvQq+jqElO+MKdB09BkL3hexyGP3Oi8XLKRFaJP1ud/xlWCZ9ZIa2BxHka32zhHfcuU+XsRQg==}
+  /prettier-plugin-svelte@3.2.7(prettier@2.8.7)(svelte@3.58.0):
+    resolution: {integrity: sha512-/Dswx/ea0lV34If1eDcG3nulQ63YNr5KPDfMsjbdtpSWOxKKJ7nAc2qlVuYwEvCr4raIuredNoR7K4JCkmTGaQ==}
     peerDependencies:
-      prettier: ^1.16.4 || ^2.0.0
-      svelte: ^3.2.0
+      prettier: ^3.0.0
+      svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
     dependencies:
       prettier: 2.8.7
       svelte: 3.58.0
