@@ -25,10 +25,10 @@
 		"build:watch": "tsup --watch"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20230404.0",
-		"prettier": "2.8.7",
+		"@cloudflare/workers-types": "4.20241022.0",
+		"prettier": "2.8.8",
 		"tsup": "6.7.0",
-		"typescript": "5.0.4"
+		"typescript": "5.6.3"
 	},
 	"repository": {
 		"type": "git",
