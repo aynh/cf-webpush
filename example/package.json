@@ -24,7 +24,7 @@
 		"tslib": "2.5.0",
 		"typescript": "5.0.4",
 		"vite": "4.3.0",
-		"wrangler": "2.16.0"
+		"wrangler": "3.83.0"
 	},
 	"type": "module"
 }
